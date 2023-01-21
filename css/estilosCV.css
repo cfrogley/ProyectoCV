@@ -3,6 +3,10 @@
     background-color: bisque;
 }
 
+#encabezado {
+    border: 5px solid darkmagenta;
+    box-shadow: 10px 10px 5px rgb(230, 173, 221);
+}
 
 
 h1 {
@@ -10,6 +14,7 @@ h1 {
     color: darkslateblue;
    margin-left: 550px;
     font-size: 55px;
+    text-shadow: 1px 1px 2px rgb(251, 250, 250), 0 0 25px rgb(224, 162, 206), 0 0 5px darkmagenta;
 }
 img {
     border: 4px double #1C6EA4;
@@ -22,7 +27,10 @@ h3 {
 h2 {
     font-weight: bold;
     font-style: italic;
+    background-color: lightblue;
+    color: darkmagenta;
 }
+
 #datos {
     text-align: right;
     margin-right: 100px;
@@ -31,9 +39,32 @@ h2 {
 #imagen {
     float: left;
     margin-left: 100px;
+    margin-top: 20px;
 }
+
 #titulo {
     float: none;
 }
 
 
+aside {
+    width: 30%;
+  padding-left: 15px;
+  margin-top: 30px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightblue;
+  font-size: large;
+}
+
+.contenido {
+    width: 60%;
+}
+ul {
+    width: 60%;
+}
+
+button {
+    size-adjust: ;
+}
