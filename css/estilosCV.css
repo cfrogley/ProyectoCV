@@ -1,6 +1,39 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+}
+
+
+
 h1 {
     font-weight: bold;
     color: darkslateblue;
-    font-family: 'Open Sans', sans-serif;
-    ;
+   margin-left: 550px;
+    font-size: 55px;
 }
+img {
+    border: 4px double #1C6EA4;
+}
+
+h3 {
+    font-style: italic;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+}
+#datos {
+    text-align: right;
+    margin-right: 100px;
+    font-weight: bold;
+}
+#imagen {
+    float: left;
+    margin-left: 100px;
+}
+#titulo {
+    float: none;
+}
+
+
