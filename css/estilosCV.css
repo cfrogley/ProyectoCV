@@ -2,6 +2,13 @@
     font-family: 'Open Sans', sans-serif;
     background-color: bisque;
 }
+nav{
+    font-size: large;
+    font-weight: bold;
+    color: darkmagenta;
+    margin: 15px;
+    text-align: center;
+}
 
 #encabezado {
     border: 5px solid darkmagenta;
@@ -36,11 +43,16 @@ h2 {
     text-shadow: 2px 2px 2px wheat;
 }
 
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
 #datos {
     text-align: right;
     margin-right: 20px;
     font-weight: bold;
-    display: inline-block;
+    
     float: right;
     
 }
