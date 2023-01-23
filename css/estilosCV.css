@@ -47,6 +47,7 @@ h2 {
 
 
 
+
 aside {
     width: 30%;
   padding-left: 15px;
@@ -63,6 +64,17 @@ aside {
 }
 ul {
     width: 60%;
+}
+
+#mis_datos {
+    background-color: lightblue;
+    color: darkmagenta;
+}
+
+#lista_contacto {
+    background-color: lightblue;
+    font-weight: bold;
+    color: darkmagenta;
 }
 
 

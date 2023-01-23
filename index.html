@@ -34,8 +34,8 @@
 </div>
   
 <aside>
-    <h3>Datos de contacto</h3>
-    <ul>
+    <h3 id= "mis_datos"></h3>Datos de contacto</h3>
+    <ul id="lista_contacto">
         <li>Teléfono: <button type="button" id="telefono">Mostrar teléfono</button> <div id="mostrar_tel" style="display: none;">1154011750</div></li>
         <li>E-mail: <button type="button" id="mail">Mostrar e-mail</button> <div id="mostrar_mail" style="display: none;">post.cf@gmail.com</div></li>
         <li><a href="https://www.linkedin.com/in/carolina-frogley-23056a189/">Perfil LinkedIn</a> </li>
@@ -59,20 +59,15 @@
     <li>Argentina Programa: Introducción a Front End - En curso</li>
     <li>Instituto Superior de Formación Docente N°39</li>
     <li>Universidad de Belgrano</li>
-    <li>Colegio Santa Teresita</li>
-   
+    <li>Colegio Santa Teresita</li> 
 </ul>
 
-<form>
-    <label>Ingrese su correo
-       <input type ="email" id= "Mail de contacto" placeholder="e.g. user@server.com" required>
-    </label>
-        <button type="submit" id="contacto">Enviar contacto</button>
-    </form>
-
-    <div id="Gracias" style="display: none;">
-        <p>Gracias por enviar su correo, nos contactaremos a la brevedad.</p>
-    </div>
+<form id="miFormulario">
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="submit" value="Enviar">
+  </form>
+  
         <script src="JavaScript\funciones.js"></script>
 </body>
 
