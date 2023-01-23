@@ -9,6 +9,9 @@ nav{
     margin: 15px;
     text-align: center;
 }
+a {
+   margin: 30px; 
+}
 
 #encabezado {
     border: 5px solid darkmagenta;
@@ -33,6 +36,9 @@ img {
 
 h3 {
     font-style: italic;
+    font-weight: bold;
+    color: darkmagenta;
+    text-shadow: 2px 2px 2px lightblue;
 }
 
 h2 {
@@ -117,10 +123,15 @@ button {
     
 }
 
+iframe {
+    border: 4px double #1C6EA4;
+}
+
 #botonEnviar {
     background-color: fuchsia;
     font-weight: bolder;
 }
+
 
 
 
