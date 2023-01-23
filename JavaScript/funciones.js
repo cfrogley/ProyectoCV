@@ -11,11 +11,7 @@ document.getElementById('mail').addEventListener('click', function(){
       
 })
 
-/*
-*document.getElementById('contacto').addEventListener('click', function() {
- *   document.getElementById('gracias').style.display = 'block';
-*})
-*/
+
 const form = document.getElementById("miFormulario");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
