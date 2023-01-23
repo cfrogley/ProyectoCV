@@ -19,26 +19,25 @@
     
 
  <section id="imagen">
-    <img src="1657632902694.jpg" alt="La imagen no se ha cargado correctamente"
-    height="250px" width="250px"/>
     <div id="datos">
         <h3>Datos Personales</h3>
             <p>Fecha de Nacimiento: 02 de Febrero de 1982</p>
             <p>DNI: 00.000.000</p>
             <p>Nacionalidad: Argentina</p>
-    </section> 
+    </div>
+   <img src="1657632902694.jpg" alt="La imagen no se ha cargado correctamente"
+    height="250px" width="250px"/>
+
+   
+ </section> 
  </div>
-
-
-
-</div>
   
 <aside>
-    <h3 id= "mis_datos"></h3>Datos de contacto</h3>
+    <p id= "mis_datos"></h3>Datos de contacto</p>
     <ul id="lista_contacto">
-        <li>Teléfono: <button type="button" id="telefono">Mostrar teléfono</button> <div id="mostrar_tel" style="display: none;">1154011750</div></li>
-        <li>E-mail: <button type="button" id="mail">Mostrar e-mail</button> <div id="mostrar_mail" style="display: none;">post.cf@gmail.com</div></li>
-        <li><a href="https://www.linkedin.com/in/carolina-frogley-23056a189/">Perfil LinkedIn</a> </li>
+        <li class="item_contacto">Teléfono: <button type="button" id="telefono">Mostrar teléfono</button> <div id="mostrar_tel" style="display: none;">1154011750</div></li>
+        <li class="item_contacto">E-mail: <button type="button" id="mail">Mostrar e-mail</button> <div id="mostrar_mail" style="display: none;">post.cf@gmail.com</div></li>
+        <li class="item_contacto"><a href="https://www.linkedin.com/in/carolina-frogley-23056a189/">Perfil LinkedIn</a> </li>
     </ul>
 </aside>
  
@@ -62,10 +61,19 @@
     <li>Colegio Santa Teresita</li> 
 </ul>
 
+<div class="contenido">
+    <h2>Habilidades</h2>
+</div>
+<ul>
+    <li>Idiomas: Inglés Avanzado</li>
+    <li>IT: Paquete Adobe - Paquete Office - Conocimientos de programación</li>
+   
+</ul>
+
 <form id="miFormulario">
     <label for="email">Correo electrónico:</label>
     <input type="email" id="email" name="email" required>
-    <input type="submit" value="Enviar">
+    <input id="botonEnviar" type="submit" value="Enviar">
   </form>
   
         <script src="JavaScript\funciones.js"></script>

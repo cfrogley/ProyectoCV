@@ -33,12 +33,14 @@ h2 {
     font-style: italic;
     background-color: lightblue;
     color: darkmagenta;
+    text-shadow: 2px 2px 2px wheat;
 }
 
 #datos {
     text-align: right;
     margin-right: 20px;
     font-weight: bold;
+    display: inline-block;
     float: right;
     
 }
@@ -54,9 +56,9 @@ aside {
   margin-top: 30px;
   margin-left: 15px;
   float: right;
-  font-style: italic;
+  border: 4px double darkmagenta;
   background-color: lightblue;
-  font-size: large;
+
 }
 
 .contenido {
@@ -67,14 +69,45 @@ ul {
 }
 
 #mis_datos {
-    background-color: lightblue;
+   font-weight: bold;
+   font-size: larger;
     color: darkmagenta;
+    background-color: lightblue;
+    text-shadow: 2px 2px 2px wheat;
 }
 
 #lista_contacto {
     background-color: lightblue;
     font-weight: bold;
     color: darkmagenta;
+}
+
+.item_contacto {
+    margin: 15px;
+}
+
+form {
+    background-color: lightblue;
+    font-size: larger;
+    font-weight: bolder;
+    color: darkmagenta;
+    text-shadow: 2px 2px 2px wheat;
+    text-align: center;
+    border: 4px double darkmagenta;
+}
+label {
+    background-color: lightblue;
+}
+
+button {
+    background-color: fuchsia;
+    font-weight: bolder;
+    
+}
+
+#botonEnviar {
+    background-color: fuchsia;
+    font-weight: bolder;
 }
 
 
