@@ -12,12 +12,16 @@
 h1 {
     font-weight: bold;
     color: darkslateblue;
-   text-align: center;
+    text-align: center;
     font-size: 55px;
     text-shadow: 1px 1px 2px rgb(251, 250, 250), 0 0 25px rgb(224, 162, 206), 0 0 5px darkmagenta;
+    margin: 15px;
 }
 img {
     border: 4px double #1C6EA4;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
 }
 
 h3 {
@@ -33,18 +37,14 @@ h2 {
 
 #datos {
     text-align: right;
-    margin-right: 100px;
+    margin-right: 20px;
     font-weight: bold;
-}
-#imagen {
-    float: left;
-    margin-left: 100px;
-    margin-top: 20px;
+    float: right;
+    
 }
 
-#titulo {
-    float: center;
-}
+
+
 
 
 aside {
@@ -66,4 +66,4 @@ ul {
 }
 
 
--
+

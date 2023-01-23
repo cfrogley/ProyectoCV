@@ -9,6 +9,10 @@ document.getElementById('telefono').addEventListener('click', function(){
 })
 
 document.getElementById('mail').addEventListener('click', function(){
+    
+        document.getElementById('mostrar_mail').style.display = 'block';
+      
+    
+    
 
-    document.getElementById('mostrar_mail').style.display = 'block';
 })
